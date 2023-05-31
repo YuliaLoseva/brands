@@ -1,4 +1,5 @@
-@media screen and (max-width: 360px) {
+/* можно просто @media с указанием размера */
+@media (max-width: 360px) {
   .brands__box {
     overflow: scroll;
   }
@@ -6,7 +7,8 @@
     display: none;
   }
 }
-@media screen and (max-width: 768px) {
+
+@media (max-width: 768px) {
   .brands__box {
     overflow: hidden;
   }
